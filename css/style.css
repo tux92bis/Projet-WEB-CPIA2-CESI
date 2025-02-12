@@ -1,0 +1,118 @@
+.header-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #d9d9d9;
+    width: 1440px;
+    height: 100px;
+}
+.header1 {
+    position: absolute;
+    height: 75.19%;
+    width: 100%;
+    top: 7.52%;
+    right: 0%;
+    bottom: 17.29%;
+    left: 0%;
+}
+.logo-icon {
+    position: absolute;
+    width: 12.29%;
+    top: calc(50% - 66.5px);
+    right: 85.49%;
+    left: 2.22%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 133px;
+    object-fit: cover;
+}
+.accueil {
+    width: 140px;
+    position: relative;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    flex-shrink: 0;
+}
+.offres-de-stage {
+    width: 141px;
+    position: relative;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    flex-shrink: 0;
+}
+.arrow-drop-down-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    margin-left: -25px;
+}
+.contacts-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bouton {
+    position: absolute;
+    top: calc(50% - 28.5px);
+    left: calc(50% - 431px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.generic-avatar-icon {
+    position: absolute;
+    height: 100%;
+    width: 33.15%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 66.85%;
+    border-radius: 100px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.mon-compte {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    line-height: 100%;
+}
+.mon-compte-wrapper {
+    position: absolute;
+    height: 26.67%;
+    width: 52.49%;
+    top: 36.67%;
+    right: 47.51%;
+    bottom: 36.67%;
+    left: 0%;
+}
+.icne-utilisateur {
+    position: absolute;
+    height: 45.11%;
+    width: 12.57%;
+    top: 24.81%;
+    right: 3.96%;
+    bottom: 30.08%;
+    left: 83.47%;
+    text-align: left;
+}
+.header {
+    width: 100%;
+    position: relative;
+    height: 133px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+}
+
