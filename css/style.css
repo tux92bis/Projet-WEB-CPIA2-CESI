@@ -1,118 +1,76 @@
-.header-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #d9d9d9;
-    width: 1440px;
-    height: 100px;
-}
-.header1 {
-    position: absolute;
-    height: 75.19%;
-    width: 100%;
-    top: 7.52%;
-    right: 0%;
-    bottom: 17.29%;
-    left: 0%;
-}
-.logo-icon {
-    position: absolute;
-    width: 12.29%;
-    top: calc(50% - 66.5px);
-    right: 85.49%;
-    left: 2.22%;
-    max-width: 100%;
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+    width: 300px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 13px;
+    position: relative;
     overflow: hidden;
-    height: 133px;
-    object-fit: cover;
-}
-.accueil {
-    width: 140px;
-    position: relative;
-    line-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    flex-shrink: 0;
-}
-.offres-de-stage {
-    width: 141px;
-    position: relative;
-    line-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    flex-shrink: 0;
-}
-.arrow-drop-down-icon {
-    width: 24px;
-    position: relative;
-    height: 24px;
-    margin-left: -25px;
-}
-.contacts-parent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-.bouton {
-    position: absolute;
-    top: calc(50% - 28.5px);
-    left: calc(50% - 431px);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 10px;
-}
-.generic-avatar-icon {
-    position: absolute;
-    height: 100%;
-    width: 33.15%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 66.85%;
-    border-radius: 100px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.mon-compte {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    line-height: 100%;
-}
-.mon-compte-wrapper {
-    position: absolute;
-    height: 26.67%;
-    width: 52.49%;
-    top: 36.67%;
-    right: 47.51%;
-    bottom: 36.67%;
-    left: 0%;
-}
-.icne-utilisateur {
-    position: absolute;
-    height: 45.11%;
-    width: 12.57%;
-    top: 24.81%;
-    right: 3.96%;
-    bottom: 30.08%;
-    left: 83.47%;
-    text-align: left;
-}
-.header {
-    width: 100%;
-    position: relative;
-    height: 133px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+  }
+  
+  #cookieSvg {
+    width: 50px;
+  }
+  
+  #cookieSvg g path {
+    fill: rgb(97, 81, 81);
+  }
+  
+  .cookieHeading {
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(26, 26, 26);
+  }
+  
+  .cookieDescription {
     text-align: center;
-    font-size: 16px;
-    color: #000;
-    font-family: Inter;
-}
-
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  .acceptButton {
+    width: 80px;
+    height: 30px;
+    background-color: #7b57ff;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+  .declineButton {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(218, 218, 218);
+    transition-duration: .2s;
+    color: rgb(46, 46, 46);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+  .declineButton:hover {
+    background-color: #ebebeb;
+    transition-duration: .2s;
+  }
+  
+  .acceptButton:hover {
+    background-color: #9173ff;
+    transition-duration: .2s;
+  }
