@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header .sunset {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    height: 264px;
+    background-size: cover;
+}
+
+header .logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 200px; 
+    height: auto;
+}
+
+header .banner-text {
+    font-size: 2em; 
+    font-weight: bold; 
+        width: 100%;
+        position: relative;
+        font-size: 72px;
+        letter-spacing: -0.03em;
+        line-height: 120%;
+        display: flex;
+        font-family: Inter;
+        color: #000;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 146px;
+        background-image: url(../images/sunset.jpeg);
+        background-size: cover;
+        background-position: center;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #65558f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #8f00b3;
+}
+
+
+@media (max-width: 768px) {
+    header .banner .banner-text {
+        font-size: 1.5em; 
+    }
+
+    fieldset {
+        max-width: 90%;
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(105, 105, 105);
+    position: absolute;
+    bottom: 0;
+}
